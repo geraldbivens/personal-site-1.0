@@ -1,0 +1,63 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#nav-list li a:hover {
+    color: #c62700;
+}
+  
+h1 {
+    position: fixed;
+    top: 96px;
+    left: 296px;
+    width: 672px;
+    padding: 0.5em 0 0.5em 24px;
+    color: white;
+    font-family: AvenirMedium;
+    font-size: 1.125em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #ffd700;
+    opacity: 0.8;
+    filter: alpha (opacity=80); /* For IE8 and earlier */
+}
+  
+#page-wrap {
+    background-color: white;
+}
+  
+section {
+    margin-bottom: 0.5em;
+}
+  
+#content section p {
+    font-family: GraphikRegular;
+    font-size: 0.6875em;
+    letter-spacing: 0.25px;
+}
+  
+#content section sup {
+    font-size: 0.625em;
+}
+  
+li,
+p {
+    color: #6c6f70;
+}
+  
+/* p.date {
+    margin: -1.5em 0.125em 0 0;
+    color: #ffd700;
+    font-size: 0.75em;
+    text-align: right;
+} */
+  
+/* a.nav-link {
+    color: #191c1f;
+    text-decoration: none;
+} */
+  
+/* a:hover.nav-link {
+    color: #ffd700;
+} */
+  

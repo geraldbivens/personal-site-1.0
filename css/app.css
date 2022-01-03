@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	/* line-height: 1; */
+	line-height: 1em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* - - - - - - - - - - - - 
+    Fonts
+- - - - - - - - - - - - */
+
+@font-face {
+	font-family: AGaramondPro-Regular;
+	src: url(/fonts/Adobe-Garamond-Pro/AGaramondPro-Regular.otf);
+}
+  
+@font-face {
+	font-family: AGaramondPro-Semibold;
+	src: url(/fonts/Adobe-Garamond-Pro/AGaramondPro-Semibold.otf);
+}
+  
+@font-face {
+	font-family: AvenirBook;
+	src: url(/fonts/Avenir/AvenirLTStd-Book.otf);
+}
+  
+@font-face {
+	font-family: AvenirRoman;
+	src: url(/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
+  
+@font-face {
+	font-family: AvenirMedium;
+	src: url(/fonts/Avenir/AvenirLTStd-Medium.otf);
+}
+  
+@font-face {
+	font-family: GraphikRegular;
+	src: url(/fonts/Graphik-Font-Family/GraphikRegular.otf);
+}
+  
+@font-face {
+    font-family: GraphikSemibold;
+	src: url(/fonts/Graphik-Font-Family/GraphikSemibold.otf);
+}
+
+/* - - - - - - - - - - - - 
+    Global styles
+- - - - - - - - - - - - */
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+#page-wrap {
+    width: 976px;
+    min-height: 100%;
+    margin: 3.5625em 24px 0 24px;
+}
+
+#side-bar {
+    float: left;
+    width: 248px;
+    padding: 0.5em 8px 0.5em 8px;
+}
+
+#side-bar li,
+#side-bar p {
+    font-family: GraphikRegular;
+    font-size: 0.6875em;
+    letter-spacing: 0.25px;
+}
+
+#side-bar sup {
+    font-size: 0.625em;
+}
+
+#content {
+    float: left;
+    width: 696px;
+    padding: 0.5em 8px 0 8px;
+}
+
+ol.inside-decimal {
+    list-style: inside decimal;
+}
+
+/* - - - - - - - - - - - - 
+    Display
+- - - - - - - - - - - - */
+
+.hide {
+    display: none;
+}
+
+/* - - - - - - - - - - - - 
+    Layout and spacing
+- - - - - - - - - - - - */
+
+.clear {
+    clear: both;
+}
+
+.indent {
+    text-indent: 16px;
+}
+
+/* - - - - - - - - - - - - 
+    Typography
+- - - - - - - - - - - - */
+
+.black {
+    color: #191c1f;
+}
+
+.center {
+    text-align: center;
+}
+
+em {
+    font-style: italic;
+}

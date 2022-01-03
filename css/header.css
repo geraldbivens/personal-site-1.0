@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5em 0;
+    background-color: #fff;
+}
+
+nav {
+    float: left;
+    margin-left: 24px;
+}
+  
+#nav-list li {
+    display: inline;
+    margin: 0 24px 0 0;
+    font-family: AvenirMedium;
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+}
+  
+#nav-list li a {
+    color: #191c1f;
+    text-decoration: none;
+}
+  
+#external-links {
+    float: right;
+    margin-right: 24px;
+}
+  
+#external-links a {
+    margin-left: 16px;
+    text-decoration: none;
+}
