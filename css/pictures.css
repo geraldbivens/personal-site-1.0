@@ -1,0 +1,123 @@
+body {
+    background-color: #f2f2f2;
+}
+  
+header {
+    z-index: 2;
+}
+  
+#nav-list li a:hover,
+#nav-list li a#current {
+    color: #c62700;
+}
+  
+#page-wrap {
+    background-color: #191c1f;
+}
+  
+#side-bar {
+    background-color: #ffd700;
+}
+  
+.container {
+    position: relative;
+    width: 248px;
+    height: 248px;
+    margin-bottom: 0.5em;
+}
+  
+#bottom-container {
+    margin-bottom: 0;
+}
+  
+.copy {
+    margin-bottom: 8px;
+    /* background-color: #c62700; */
+}
+  
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Courier, sans-serif;
+    font-size: 0.875em;
+    text-align: center;
+}
+  
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #191c1f;
+} */
+  
+/* .container:hover .overlay {
+    opacity: 0.7;
+} */
+  
+#side-bar p,
+#side-bar ol li {
+    color: #191c1f;
+}
+  
+#side-bar sup {
+    color: #c62700;
+}
+  
+#content section {
+    width: 696px;
+    height: 696px;
+    margin-bottom: 0.5em;
+}
+  
+#portraits {
+    background-image: url('http://www.geraldbivens.com/images/t/portraits_lrg.jpg');
+}
+  
+#road-pics {
+    background-image: url('http://www.geraldbivens.com/images/t/road-pictures_lrg.jpg');
+}
+  
+#around-and-about {
+    background-image: url('http://www.geraldbivens.com/images/t/around-and-about_lrg.jpg');
+}
+  
+#out-in-public {
+    background-image: url('http://www.geraldbivens.com/images/t/out-in-public_lrg.jpg');
+}
+  
+#landscapes {
+    background-image: url('http://www.geraldbivens.com/images/t/landscapes_lrg.jpg');
+}
+  
+.folio-link a {
+    position: relative;
+    top: 348px;
+    left: 0;
+    display: block;
+    width: 696px;
+    padding: 0.5em 0;
+    background-color: #c62700;
+    color: #fff;
+    font-family: Courier, sans-serif;
+    /* font-family: GraphikRegular; */
+    font-size: 1em;
+    /* letter-spacing: 0.5px; */
+    opacity: 0.7;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.folio-link a:hover {
+    background-color: #191c1f;
+}

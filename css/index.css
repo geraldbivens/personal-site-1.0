@@ -30,13 +30,13 @@ section {
     margin-bottom: 0.5em;
 }
   
-/* #content section p {
+/* section p {
     font-family: GraphikRegular;
     font-size: 0.6875em;
     letter-spacing: 0.25px;
 } */
   
-/* #content section sup {
+/* section sup {
     font-size: 0.625em;
 } */
   
@@ -49,8 +49,7 @@ p.date {
     margin: -1.5em 0.125em 0 0;
     color: #ffd700;
     font-family: GraphikRegular;
-    /* font-size: 0.6875em; */
-    font-size: 0.75em;
+    font-size: 0.6875em;
     letter-spacing: 0.25px;
     text-align: right;
 }

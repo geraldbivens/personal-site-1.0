@@ -1,0 +1,37 @@
+body {
+    background-color: #5478bf;
+}
+
+#nav-list li a:hover,
+#nav-list li a#current {
+    color: #f28d35;
+}
+  
+#page-wrap {
+    background-color: #191c1f;
+}
+  
+#side-bar {
+    background-color: #f2d22e;
+}
+  
+#content {
+    margin-top: 1.5em;
+    padding-bottom: 0.5em;
+    background-color: #f28d35;
+}
+  
+h2 {
+    color: #191c1f;
+    font-family: AvenirMedium;
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+  
+#content p {
+    color: #fff;
+    font-family: GraphikRegular;
+    font-size: 0.75em;
+    letter-spacing: 0.25px;
+}
