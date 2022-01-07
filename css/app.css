@@ -110,7 +110,7 @@ body {
 #side-bar {
     float: left;
     width: 248px;
-    padding: 0.5em 8px 0.5em 8px;
+    padding: 0.5em 8px;
 }
 
 #side-bar li,

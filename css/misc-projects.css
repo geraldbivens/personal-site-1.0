@@ -1,0 +1,41 @@
+body {
+    background-color: #f2f2f2;
+}
+ 
+#nav-list li a:hover,
+#nav-list li a#current {
+    color: #f28d35;
+}
+  
+#page-wrap {
+    background-color: #fff;
+}
+  
+#side-bar {
+    background-color: #fff;
+}
+
+#side-bar p {
+    color: #6c6f70;
+}
+  
+#content {
+    margin-top: 1.5em;
+    padding-bottom: 0.5em;
+    background-color: #191c1f;
+}
+
+h3 {
+    color: #f28d35;
+    font-family: AvenirMedium;
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#content p {
+    color: #fff;
+    font-family: GraphikRegular;
+    font-size: 0.75em;
+    letter-spacing: 0.25px;
+}
