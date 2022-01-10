@@ -1,0 +1,65 @@
+body {
+    background-color: #f2f2f2;
+}
+  
+#nav-list li a:hover,
+#nav-list li a#current {
+    color: #c62700;
+}
+  
+#page-wrap {
+    width: 696px;
+    margin: 1.5em 24px;
+    background-color: white;
+}
+  
+main {
+    padding: 1.5em 48px;
+}
+  
+section {
+    margin-bottom: 1em;
+}
+  
+.notes {
+    margin-top: 2em;
+    border: none;
+}
+  
+h3 {
+    margin-bottom: 1.5em;
+    color: #191c1f;
+    font-family: AGaramondPro-Semibold;
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+  
+.project {
+    margin-bottom: 0.75em;
+}
+  
+.subject {
+    margin-bottom: 1.5em;
+}
+  
+h4 {
+    margin-bottom: 0.25em;
+    color: #191c1f;
+    font-family: AGaramondPro-Regular;
+    font-size: 1.125em;
+    letter-spacing: 0.5px;
+}
+  
+ol li,
+p {
+    color: #191c1f;
+    font-family: AGaramondPro-Regular;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+  
+sup {
+    color: #6c6f70;
+    font-size: 0.75em;
+}
