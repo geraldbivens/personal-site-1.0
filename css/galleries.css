@@ -1,0 +1,57 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#nav-list li a:hover,
+#nav-list li a#current {
+    color: #c62700;
+}
+  
+#page-wrap {
+    width: 976px;
+    min-height: 100%;
+    margin: 3.5625em 24px 0 24px;
+    background-color: #191c1f;
+}
+  
+main {
+    padding: 0.5em 8px 0.125em 8px;
+}
+
+.title-card {
+    position: relative;  
+    width: 316px;
+    height: 316px;
+    background-color: #000;
+}
+
+.center-copy {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+h3 {
+    /* margin: 0 0 0.3125em 0; */
+    color: white;
+    font-family: AvenirMedium;
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+#column-1, #column-2, #column-3 {
+    float: left;
+    width: 316px;
+}
+  
+#column-1, #column-2 {
+    margin-right: 6px;
+}
+  
+img {
+    margin-bottom: 0.1875em;
+}
