@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #eceb81;
 }
   
 #nav-list li a:hover,
@@ -8,9 +8,10 @@ body {
 }
   
 #page-wrap {
-    width: 696px;
+    /* width: 696px; */
+    width: 976px;
     margin: 1.5em 24px;
-    background-color: white;
+    background-color: #191c1f;
 }
   
 main {
@@ -28,7 +29,7 @@ section {
   
 h3 {
     margin-bottom: 1.5em;
-    color: #191c1f;
+    color: white;
     font-family: AGaramondPro-Semibold;
     font-size: 1.25em;
     letter-spacing: 0.5px;
@@ -45,7 +46,7 @@ h3 {
   
 h4 {
     margin-bottom: 0.25em;
-    color: #191c1f;
+    color: white;
     font-family: AGaramondPro-Regular;
     font-size: 1.125em;
     letter-spacing: 0.5px;
@@ -53,13 +54,13 @@ h4 {
   
 ol li,
 p {
-    color: #191c1f;
+    color: white;
     font-family: AGaramondPro-Regular;
     font-size: 1em;
     line-height: 1.5em;
 }
   
 sup {
-    color: #6c6f70;
+    color: white;
     font-size: 0.75em;
 }
